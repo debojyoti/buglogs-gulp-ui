@@ -1,0 +1,192 @@
+.hide-on-small {
+    display: block; }
+    @media screen and (max-width: 768px) {
+      .hide-on-small {
+        display: none; } }
+  
+  .visible-on-small {
+    display: none; }
+    @media screen and (max-width: 768px) {
+      .visible-on-small {
+        display: block; } }
+  
+  button {
+    cursor: pointer !important;
+    outline: none !important; }
+  
+  * {
+    transition: 0.3s; }
+  
+  body {
+    padding: 0px;
+    margin: 0px; }
+  
+  #header-wrapper {
+    min-height: 80px;
+    background-color: #444444;
+    padding-top: 17px;
+    padding-left: 55px; }
+    #header-wrapper h3 {
+      color: white; }
+    #header-wrapper #header-search-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center; }
+      @media screen and (max-width: 768px) {
+        #header-wrapper #header-search-wrapper {
+          padding-top: 20px;
+          padding-bottom: 20px; } }
+      #header-wrapper #header-search-wrapper input {
+        width: 100%;
+        border: none;
+        padding: 5px;
+        padding-left: 20px;
+        outline: none;
+        font-size: 14px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px; }
+        @media screen and (max-width: 768px) {
+          #header-wrapper #header-search-wrapper input {
+            padding: 5px;
+            font-size: 11px;
+            padding-left: 20px; } }
+      #header-wrapper #header-search-wrapper button {
+        width: 20%;
+        outline: none;
+        cursor: pointer;
+        border: none;
+        padding: 5px;
+        font-size: 14px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px; }
+        @media screen and (max-width: 768px) {
+          #header-wrapper #header-search-wrapper button {
+            padding: 5px;
+            font-size: 11px; } }
+    @media screen and (max-width: 900px) {
+      #header-wrapper {
+        padding-left: 15px; } }
+  
+  #g-login-btn {
+    margin-top: 7px;
+    background-color: #2889F4;
+    border: none;
+    border-radius: 10px;
+    margin-left: 30px;
+    padding: 3px 35px;
+    color: white;
+    font-size: 12px; }
+    #g-login-btn span {
+      font-size: 18px;
+      margin-right: 8px; }
+  
+  .small-login-btn {
+    text-align: right; }
+    .small-login-btn button {
+      display: block !important; }
+  
+  #header-user-icon-circular {
+    margin-top: 7px;
+    background-color: #2889F4;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 12px;
+    color: white;
+    margin-left: 30px; }
+  
+  #header-user-info-wrapper {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+    @media screen and (max-width: 900px) {
+      #header-user-info-wrapper {
+        justify-content: flex-end; } }
+  
+  #header-acc-label {
+    padding-top: 5px;
+    color: white;
+    margin-left: 10px;
+    font-size: 13px; }
+  
+  /*  Header ends here  */
+  #editor-bottom-actionbar {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    left: 0;
+    min-height: 60px;
+    background-color: #2889F4;
+    padding-top: 16px;
+    padding-right: 40px; }
+    @media screen and (max-width: 900px) {
+      #editor-bottom-actionbar {
+        padding-right: 0px; } }
+    #editor-bottom-actionbar #positive-action-wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center; }
+      @media screen and (max-width: 900px) {
+        #editor-bottom-actionbar #positive-action-wrapper {
+          justify-content: center;
+          margin-bottom: 20px; } }
+      #editor-bottom-actionbar #positive-action-wrapper #save-as-draft-btn {
+        background-color: white;
+        border: none;
+        border-radius: 3px;
+        color: black;
+        font-size: 13px;
+        padding: 4px 30px;
+        margin-right: 30px;
+        box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3); }
+      #editor-bottom-actionbar #positive-action-wrapper #post-btn {
+        background-color: black;
+        border: none;
+        border-radius: 3px;
+        color: white;
+        font-size: 13px;
+        padding: 4px 30px;
+        box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3); }
+      #editor-bottom-actionbar #positive-action-wrapper #post-btn:hover, #editor-bottom-actionbar #positive-action-wrapper #save-as-draft-btn:hover {
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); }
+    @media screen and (max-width: 900px) {
+      #editor-bottom-actionbar #negative-action-wrapper {
+        text-align: center;
+        margin-bottom: 10px; } }
+    #editor-bottom-actionbar #negative-action-wrapper button {
+      background-color: transparent;
+      border: none;
+      color: white; }
+  
+  #log-editor-wrapper {
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 120px; }
+    @media screen and (max-width: 900px) {
+      #log-editor-wrapper {
+        padding-left: 15px; } }
+    #log-editor-wrapper #new-log-label-wrapper {
+      margin-bottom: 20px; }
+    #log-editor-wrapper .editor-formgroup {
+      margin-top: 30px; }
+      #log-editor-wrapper .editor-formgroup p {
+        margin: 0px;
+        font-size: 18px; }
+      #log-editor-wrapper .editor-formgroup input, #log-editor-wrapper .editor-formgroup textarea {
+        width: 100%;
+        margin-top: 7px;
+        border-radius: 3px;
+        border: 1px solid black;
+        padding-left: 20px;
+        padding-bottom: 3px; }
+      #log-editor-wrapper .editor-formgroup textarea {
+        min-height: 200px; }
+  
