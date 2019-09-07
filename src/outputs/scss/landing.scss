@@ -139,34 +139,20 @@ body {
 
 #landing-wrapper {  
   min-height: 100vh;
-  @media screen and (max-width: $break-medium) {
-    min-height: 50vh;
-  }
   .col-md-6 {
     padding-left: 150px;
     padding-top: 160px;
-    @media screen and (max-width: $break-medium) {
-      padding-left: 40px;
-      padding-top: 130px;
-    }
     #landing-txt-one {
       font-size: 28px;
-      font-weight: 500;
-      @media screen and (max-width: $break-medium) {
-        font-size: 22px;
-      font-weight: 500;
-      }
+      font-weight: 300;
     }
+  
     #landing-txt-two {
       margin-top: 40px;
       font-size: 28px;
-      font-weight: 500;
-      
-      @media screen and (max-width: $break-medium) {
-        font-size: 22px;
-      font-weight: 500;
-      }
+      font-weight: 300;
     }
+  
     #landing-get-started-button-wrapper {
       margin-top: 80px;
       // font-size: 28px;
@@ -184,6 +170,5 @@ body {
         box-shadow: 7px 7px 10px rgba(0,0,0,0.3);
       }
     }
-    
   }
 }

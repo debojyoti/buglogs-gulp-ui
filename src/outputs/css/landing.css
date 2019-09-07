@@ -115,31 +115,16 @@ body {
 
 #landing-wrapper {
   min-height: 100vh; }
-  @media screen and (max-width: 900px) {
-    #landing-wrapper {
-      min-height: 50vh; } }
   #landing-wrapper .col-md-6 {
     padding-left: 150px;
     padding-top: 160px; }
-    @media screen and (max-width: 900px) {
-      #landing-wrapper .col-md-6 {
-        padding-left: 40px;
-        padding-top: 130px; } }
     #landing-wrapper .col-md-6 #landing-txt-one {
       font-size: 28px;
-      font-weight: 500; }
-      @media screen and (max-width: 900px) {
-        #landing-wrapper .col-md-6 #landing-txt-one {
-          font-size: 22px;
-          font-weight: 500; } }
+      font-weight: 300; }
     #landing-wrapper .col-md-6 #landing-txt-two {
       margin-top: 40px;
       font-size: 28px;
-      font-weight: 500; }
-      @media screen and (max-width: 900px) {
-        #landing-wrapper .col-md-6 #landing-txt-two {
-          font-size: 22px;
-          font-weight: 500; } }
+      font-weight: 300; }
     #landing-wrapper .col-md-6 #landing-get-started-button-wrapper {
       margin-top: 80px; }
       #landing-wrapper .col-md-6 #landing-get-started-button-wrapper button {
