@@ -43,42 +43,70 @@
     </div>
   </div>
 
-  <div class="container-fluid" id="log-editor-wrapper">
+  <div class="container-fluid" id="post-action-topbar">
     <div class="row">
-      <div class="col-md-8"  id="new-log-label-wrapper">
-        <h3>Create a new log</h3>
+      <div class="col-md-6" id="back-to-results">
+        <button>
+            <i class="fas fa-arrow-left"></i> &nbsp; &nbsp;  Back To Results
+        </button>
       </div>
-      <div class="col-md-8 editor-formgroup">
-        <p>Title</p>
-        <input type="text" >
+      <div class="col-md-6" id="results-naviagtor">
+        <p>Jump To</p>
+        <button id="prev-btn"><i class="fas fa-chevron-left"></i> &nbsp; Previous Result</button>
+        <button>Next Result &nbsp; <i class="fas fa-chevron-right"></i></button>
       </div>
-      <div class="col-md-8 editor-formgroup">
-          <p>Tags</p>
-          <input type="text" >
-        </div>
-      <div class="col-md-8 editor-formgroup">
-          <p>Problem Description</p>
-          <textarea></textarea>
-        </div>
-        <div class="col-md-8 editor-formgroup">
-            <p>Solution</p>
-            <textarea></textarea>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12" id="post-stats-wrapper">
+        <div id="post-stats">
+          <div id="star-wrapper">
+            <i class="fas fa-star"></i>
+            &nbsp; 3 Stars
           </div>
+          <div id="views-wrapper">
+            <i class="fas fa-eye"></i>
+            &nbsp; 12 Views
+          </div>
+        </div>
+      </div>
+      <div class="col-12" id="viewer-wrapper">
+        <div class="row">
+          <div class="col-md-8">
+            <h3>Sample Log Title</h3>
+          </div>
+          <div class="col-md-8" id="tags-wrapper">
+            <div class="tag">
+              #angular
+            </div>
+            <div class="tag">
+              #react-native
+            </div>
+            <div class="tag">
+              #firebase
+            </div>
+            <div class="tag">
+              #react-redux-connect
+            </div>
+          </div>
+          <div class="col-md-12" id="problem-desc-wrapper">
+            <h6>Problem Description</h6>
+            <div id="problem-desc">
+
+            </div>
+          </div>
+          <div class="col-md-12" id="solution-wrapper">
+            <h6>Solution</h6>
+            <div id="solution">
+
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-
-  <div class="container-fluid" id="editor-bottom-actionbar">
-    <div class="row">
-      <div class="col-md-6" id="negative-action-wrapper">
-          <button><i class="fas fa-times"></i> &nbsp; Discard and Close</button>
-      </div>
-      <div class="col-md-6" id="positive-action-wrapper">
-          <button id="save-as-draft-btn">Save as Draft &nbsp; <i class="fas fa-save"></i></button>
-        <button id="post-btn">Post &nbsp; <i class="fas fa-file-alt"></i></button>
-      </div>
-    </div>
-  </div>
-
 
 
   <script src="js/jquery.min.js"></script>
